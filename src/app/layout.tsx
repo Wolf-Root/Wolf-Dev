@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "WolfDev – Creative Front-End Developer",
@@ -44,6 +45,7 @@ export default function RootLayout({
       <body className="container mx-auto min-h-screen flex flex-col justify-between gap-5 px-2 md:px-0">
         <Header />
         <main>{children}</main>
+        <SpeedInsights />
         <Footer />
       </body>
     </html>
