@@ -12,11 +12,11 @@ export const metadata: Metadata = {
     title: "Blog | WolfDev",
     description:
       "Read the latest web design and development insights from Youssef at WolfDev.",
-    url: "https://you-div.netlify.app/blog",
+    url: "https://wolf-dev.vercel.app/blog",
     siteName: "WolfDev",
     images: [
       {
-        url: "https://images.pexels.com/photos/4458/laptop-office-desk-computer.jpg",
+        url: "https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg",
       },
     ],
     type: "article",

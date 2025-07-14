@@ -2,7 +2,7 @@ import Posts from "@/models/Posts";
 import connectDB from "@/lib/mongodb";
 
 export async function GET() {
-  const baseUrl = process.env.baseUrl || "https://your-domain.com";
+  const baseUrl = "https://wolf-dev.vercel.app/";
 
   const staticRoutes = [
     "",

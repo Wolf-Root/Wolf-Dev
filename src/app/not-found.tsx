@@ -1,4 +1,10 @@
 import Button from "@/components/mainButton/Button";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Not Found",
+  description: "Sorry, There NOTHING HERE",
+};
 
 export default function NotFound() {
   return (

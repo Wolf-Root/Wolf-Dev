@@ -10,11 +10,11 @@ export const metadata: Metadata = {
     title: "About Me | WolfDev",
     description:
       "Learn more about Youssef – front-end developer passionate about clean design, performance, and user experience.",
-    url: "https://you-div.netlify.app/about",
+    url: "https://wolf-dev.vercel.app/about",
     siteName: "WolfDev",
     images: [
       {
-        url: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+        url: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
       },
     ],
     type: "profile",

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Contact | WolfDev",
     description:
       "Get in touch with Youssef for your next project or collaboration. Let’s build something great together!",
-    url: "https://you-div.netlify.app/contact",
+    url: "https://wolf-dev.vercel.app/contact",
     images: [
       {
         url: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg",

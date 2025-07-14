@@ -24,7 +24,7 @@ export default function Portfolio() {
         </Link>
 
         <Link
-          href="/portfolio/Application"
+          href="/portfolio/Applications"
           className="w-[300px] h-[400px] border-4 border-[#bbb] rounded-md relative bg-[url(/apps.jpg)] bg-cover group duration-300 hover:border-success"
         >
           <span className="text-[#bbb] absolute right-2.5 bottom-2.5 text-4xl font-bold duration-300 group-hover:text-success">

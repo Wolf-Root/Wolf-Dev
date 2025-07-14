@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     title: "Portfolio | WolfDev",
     description:
       "Browse projects by Youssef in design, web development, and app interfaces. Built with passion and precision.",
-    url: "https://you-div.netlify.app/portfolio",
+    url: "https://wolf-dev.vercel.app/portfolio",
     images: [
       {
-        url: "https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg",
+        url: "https://images.pexels.com/photos/7735630/pexels-photo-7735630.jpeg",
       },
     ],
     type: "website",
