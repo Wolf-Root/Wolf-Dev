@@ -25,11 +25,17 @@ export default function Header() {
         </ul>
         <ThemeToggle />
 
-        <button className="block md:hidden">
-          <label className="btn btn-circle swap swap-rotate">
+        <button
+          className="block md:hidden"
+          aria-label="Mobile Menu Open / Close"
+        >
+          <label
+            htmlFor="MobileMenu"
+            className="btn btn-circle swap swap-rotate"
+          >
             <input
               type="checkbox"
-              id="ThemeToggle"
+              id="MobileMenu"
               onChange={handelClick}
               checked={isOpen}
             />
